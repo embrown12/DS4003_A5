@@ -60,7 +60,7 @@ from datetime import date
 
 # %%
 # Bringing in the GDP per Capita CSV file 
-df = pd.read_csv(./data/gdp_pcap.csv)
+df = pd.read_csv(/data/gdp_pcap.csv)
 #df = pd.read_csv(r'C:\Users\emily\OneDrive\Desktop\DS4003\A4_student\gdp_pcap.csv')
 
 # %%
@@ -73,7 +73,7 @@ country_names = df['country'].tolist()
 #print(country_names)
 
 # %%
-# Global variable for a a list of the columns (Getting years)
+# Global variable for a list of the columns (Getting years)
 year_values = df.columns[1:].tolist()
 #print(year_values)
 
