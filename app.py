@@ -60,7 +60,7 @@ from datetime import date
 
 # %%
 # Bringing in the GDP per Capita CSV file 
-df = pd.read_csv(/data/gdp_pcap.csv)
+df = pd.read_csv("data/gdp_pcap.csv")
 #df = pd.read_csv(r'C:\Users\emily\OneDrive\Desktop\DS4003\A4_student\gdp_pcap.csv')
 
 # %%
